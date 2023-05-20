@@ -41,24 +41,3 @@ function getPass (num){
     return generatedPass
  }
  
-buttonOne.addEventListener("click", function() {
-    let password = buttonOne.textContent;
-    let tempInput = document.createElement("input");
-    tempInput.setAttribute("value", password);
-    document.body.appendChild(tempInput);
-    tempInput.select();
-    document.execCommand("copy");
-    document.body.removeChild(tempInput);
-    console.log("Text copied!");
-});
-
-buttonTwo.addEventListener("click", function(){
-   let passwort = buttonTwo.textContent
-   let tempInput = document.createElement("input")
-   tempInput.setAttribute("value", passwort)
-   document.body.appendChild(tempInput)
-   tempInput.select()
-   document.execCommand("copy")
-   document.body.removeChild(tempInput)
-   console.log("Text copied!")
-})
