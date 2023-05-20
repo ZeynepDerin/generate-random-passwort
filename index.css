@@ -3,7 +3,7 @@ body {
     padding: 2em 3em;
     max-width: 550px;
     text-align: center;
-    background: URL('img1.jpg');
+    background: URL('./img1.jpg');
     background-size: auto;
 }
 
