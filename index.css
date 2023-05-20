@@ -1,0 +1,56 @@
+body {
+    margin: 0 auto;
+    padding: 2em 3em;
+    max-width: 550px;
+    text-align: center;
+    background: URL('img1.jpg');
+    background-size: auto;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    background: #2E7280;
+    border: none;
+    border-radius: 5px;
+    margin: 0.6em;
+}
+
+input#pass-length{
+    width: 50px;
+    padding: 0.2em;
+    margin-bottom: 0.4em;
+}
+
+.pass-length-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0.4em;
+}
+.checkbox-container{
+    margin-top: 0.8em;
+}
+
+/*---TYPOGRAPHY--- */
+
+h1{
+    color: #2B283A;
+    font-size: 2.5rem;
+}
+
+
+p{
+    color: #6B7280;
+    font-size: 1.1rem;
+}
+
+label {
+    color: #6B7280;
+}
+
+button{
+    color: whitesmoke;
+    text-shadow: 1px 1px 2px #2B283A;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,27 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="upper-container">
+            <h1>Generate a </br> random passwort  </h1>
+            <p>never use an insecure passwort again </p>
+        </div>
+        <div class="pass-container">
+            <button onclick="copyText()" id="button-one"> </button>
+            <button onclick="copyText()" id="button-two"> </button>
+            <button id="btn"> generate new passwort</button>
+        </div>
+        <div class="pass-length-container">
+            <input type="number" min="6" max="12" id="pass-length" value="6">
+            <label for="pass-length" >choose the charachter length of your password</label>
+        </div>
+        <div class="checkbox-container">
+            <input type="checkbox" id="deactive-numbers">
+            <label for="deactive-numbers"> without numbers</label>
+            <input type="checkbox" id="deactive-symbols">
+            <label for="deactive-symbols"> without symbols</label>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
